@@ -35,5 +35,8 @@ void input() {		//Procedure input
 }
 
 void swap(int x, int y) {
-
+	int temp;	// penyimpanan sementara
+	temp = saff[x];
+	saff[x] = saff[y];
+	saff[y] = temp;
 }
