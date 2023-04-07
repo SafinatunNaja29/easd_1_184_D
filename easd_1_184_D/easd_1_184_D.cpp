@@ -12,3 +12,17 @@ using namespace std;
 
 int saff[104]; // deklarasi variable array
 int n;
+
+void input() {		//Procedure input
+	while (true)	//menambahkan kondisi atau kasus
+	{
+		cout << "Masukkan panjang element array : ";
+		cin >> n;
+
+		if (n <= 104)	
+			break;
+		else
+			cout << "\nMaksimum panjang array adalah 104" << endl;
+
+	}
+}
