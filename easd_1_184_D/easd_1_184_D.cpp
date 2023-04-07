@@ -40,3 +40,7 @@ void swap(int x, int y) {
 	saff[x] = saff[y];
 	saff[y] = temp;
 }
+
+void SelectionSort() {	
+
+}
