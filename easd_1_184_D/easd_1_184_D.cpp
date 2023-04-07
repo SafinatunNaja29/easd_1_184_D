@@ -44,7 +44,8 @@ void swap(int x, int y) {
 void SelectionSort() {	//procedure selectionsort
 	for (int Sn = 0; Sn < n - 1; Sn++)
 	{
-		
+		int min_index = Sn;
+		for (int i = (Sn + 1); i < n; i++)
 		{
 
 		}
