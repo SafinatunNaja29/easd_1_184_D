@@ -36,9 +36,9 @@ void input() {		//Procedure input
 
 void swap(int x, int y) {
 	int temp;	// penyimpanan sementara
-	temp = saff[x];
-	saff[x] = saff[y];
-	saff[y] = temp;
+	temp = x;
+	x = y;
+	y = temp;
 }
 
 void SelectionSort() {	//procedure selectionsort
@@ -47,9 +47,13 @@ void SelectionSort() {	//procedure selectionsort
 		int min_index = Sn;
 		for (int i = (Sn + 1); i < n; i++)
 		{
-			min_index = i;
+			if (saff[i] < saff[min_index])
+			{
+
+				min_index = i;
+			}
 		}
-		swap(min_index, Sn);
+		swap(saff[min_index],saff[ Sn]);
 	}
 }
 
@@ -60,11 +64,16 @@ void display() {	// procedure display
 	cout << "------------------" << endl;
 	for (int i = 0; i < n;i++)
 	{
-		cout << Saff[i] << " ";
+		cout << saff[i] << " ";
 	}
+	cout << endl;
 }
 
-int main(){
-	
-
+int main() {
+	int saff[104];
+	int n;
+	input();
+	SelectionSort();
+	display();
+	return 0;
 }
