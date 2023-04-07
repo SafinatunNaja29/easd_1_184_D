@@ -33,3 +33,7 @@ void input() {		//Procedure input
 		cin >> saff[i];
 	}
 }
+
+void swap(int x, int y) {
+
+}
