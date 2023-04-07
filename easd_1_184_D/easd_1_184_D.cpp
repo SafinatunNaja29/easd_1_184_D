@@ -53,6 +53,9 @@ void SelectionSort() {	//procedure selectionsort
 	}
 }
 
-void display() {
-
+void display() {	// procedure display
+	cout << endl;
+	cout << "------------------" << endl;
+	cout << "Sorted Array" << endl;
+	cout << "------------------" << endl;
 }
