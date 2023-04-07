@@ -41,6 +41,12 @@ void swap(int x, int y) {
 	saff[y] = temp;
 }
 
-void SelectionSort() {	
+void SelectionSort() {	//procedure selectionsort
+	for (int Sn = 0; Sn < n - 1; Sn++)
+	{
+		
+		{
 
+		}
+	}
 }
