@@ -47,7 +47,8 @@ void SelectionSort() {	//procedure selectionsort
 		int min_index = Sn;
 		for (int i = (Sn + 1); i < n; i++)
 		{
-
+			min_index = i;
 		}
+		swap(min_index, Sn);
 	}
 }
