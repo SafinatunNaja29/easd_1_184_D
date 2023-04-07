@@ -52,3 +52,7 @@ void SelectionSort() {	//procedure selectionsort
 		swap(min_index, Sn);
 	}
 }
+
+void display() {
+
+}
